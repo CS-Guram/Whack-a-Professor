@@ -1,0 +1,39 @@
+<!-- Read ME
+
+Title: Whack-a-Professor
+
+Summary:
+Whack-a-Professor is an exciting and fast-paced browser game that challenges players to test their reaction time and accuracy. The objective is to click on professors that pop up randomly from holes within a 10-second time limit. Each successful click on a professor earns the player one point. However, players must avoid clicking on empty holes to prevent score deductions.
+
+As the timer counts down, players must be quick and precise to maximize their score. The game tracks the number of clicks made on professors during the time limit and displays the final score at the end of the round.
+
+Players can challenge their friends or compete against themselves to beat their high scores, making Whack-a-Professor a thrilling and addictive experience. The game's simple yet challenging mechanics make it suitable for players of all ages and skill levels.
+
+Get ready to grab your virtual hammer and start whacking those professors in this fun and engaging Whack-a-Professor game! -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <a style="font-size:30px;font-family:cursive">Whack-A-Prof</a>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="index.js" defer></script>
+</head>
+<body> 
+  <h1 id="score">0</h1>
+  <div id="timer">Time left: 60</div>
+  <div id="whack-a-prof">
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+  </div>
+  <button id="start-button">Start Game</button>
+</body>
+</html>
